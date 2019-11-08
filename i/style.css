@@ -1,0 +1,107 @@
+@font-face {
+font-family: "font-marko";
+src: url("font-marko.ttf") format("opentype");
+}
+body,html {
+    overflow: hidden;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust:     100%;
+  background-attachment: fixed;
+  height: 95vh;
+}
+body:before {
+content: "";
+display: block;
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+z-index: -10;
+background: url(fonfull.png) no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover; 
+}
+.logo {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: calc(60vh - 13rem);
+	position: relative;
+	justify-content: center;
+	align-items: center;
+
+}
+.logo img {
+  max-width:100%;
+  height:auto; 
+  margin-top: -10px;
+}
+.chuvak{
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+	height: calc(60vh - 13rem);
+	position: relative;
+	justify-content: center;
+	align-items: center;
+
+}
+.chuvak img {
+	  max-width:100%;
+      height:auto; 
+}
+.container {
+	font-family: 'font-marko.ttf';
+	color: #fff;
+}
+@media only screen and (max-width: 375px) {
+.chuvak img {
+    margin-top: -60px;
+    margin-left: -150px;
+    
+    
+  
+
+}
+.list {
+	position: relative;
+	right:  50px;
+}
+}
+.tc-background-yellow {
+	height: 39px;
+}
+@media only screen and (max-width: 412px) {
+	.list {
+		margin-left: -40px;
+	}
+	.chuvak {
+		width: 500px;
+
+	}
+
+}
+@media only screen and (max-width: 375px) {
+.chuvak img {
+transform: scale(0.8);
+}
+  .samara {
+  	margin-right: -25px;
+  }
+  	.chuvak {
+		margin-top: -290px;
+		
+
+	}
+  .marko  {
+  	position: relative;
+  	left: -100px;
+  	top: -55px;
+  	
+  
+
+  }
+	}

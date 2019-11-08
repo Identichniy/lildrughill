@@ -1,0 +1,222 @@
+body {
+    background: url(fonfull.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+body {
+    background: url(marko.png), url(fonfull.png);
+    background-size: 60vh, cover;
+    background-attachment: fixed, fixed;
+    background-position: bottom center, center center;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.container {
+    font-family: 'font-marko';
+    color: #fff;
+}
+
+.fetish {
+    height: 30vh !important;
+    width: calc(30vh * 3) !important;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header row {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+header img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.table {
+    margin-top: -20%;
+}
+
+.table .container {
+    position: relative;
+}
+
+.table tr {
+    border: 4px solid transparent;
+}
+
+.table td {
+    font-size: 15px;
+    font-family: 'BookAntiqua';
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.table .yellow {
+    color: #b5d81e;
+}
+.table .active {
+    color: #b5d81e;
+}
+
+.table tr td:nth-of-type(2),
+.table tr td:nth-of-type(3) {
+    line-height: 20px;
+    /*padding-top: 27px;*/
+}
+
+.table table {
+    margin: 0 auto;
+    transform: scale(1);
+}
+
+.table table tr td:nth-of-type(2),
+.table table tr td:nth-of-type(4) {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.table__img {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 20px);
+    /* max-height: calc(100vh - 9rem); */
+    height: 90vh;
+    max-width: 100%;
+    /*display: block;*/
+    display: none;
+    z-index: -1;
+}
+
+.adds {
+    height: 50vh !important;
+    width: 450px;
+    position: relative;
+    display: block;
+    float: right;
+    top: -165px;
+    margin: 0 0 0 auto;
+}
+
+.vk {
+    display: inline-flex;
+    width: 29px;
+    height: 29px;
+    background: url(vk.svg) no-repeat center center;
+    background-size: 32px 32px;
+    margin-left: 10px;
+    /* position: relative; */
+    /* top: 10px; */
+    position: static;
+    top: 0;
+}
+
+@media (max-width: 767px) {
+    body {
+        background: url(marko.png), url(fonfull.png);
+        background-size: contain, cover;
+        background-attachment: fixed, fixed;
+        background-position: bottom center, center center;
+        background-repeat: no-repeat, no-repeat;
+    }
+    .table td {
+        vertical-align: middle;
+        padding: .2rem .5rem;
+        line-height: 1.2;
+    }
+    .table tr td:nth-of-type(2),
+    .table tr td:nth-of-type(3) {
+        /*padding-top: .75rem;*/
+    }
+    .table .yellow {
+        color: #b5d81e;
+        padding: 0 .5rem 0 0;
+    }
+    .table__img {
+        position: fixed;
+        height: auto;
+        max-width: 100%;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .table table {
+        font-size: 0.6rem;
+        width: 100%;
+        transform: translate(0, 220px);
+    }
+    .table tr td:nth-of-type(2),
+    .table tr td:nth-of-type(3) {
+        line-height: 20px;
+        font-size: 14px;
+    }
+    header img.fetish {
+        display: block !important;
+        margin: 0 auto !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .adds {
+        position: absolute;
+        transform: translate(0, 180px);
+        max-height: calc(100vh - 9rem);
+        height: auto;
+        max-width: 100%;
+        display: block;
+    }
+    .tc-background-yellow {
+        padding: 3px 5px !important;
+        height: 22px !important;
+        line-height: 16px !important;
+        font-size: 12px !important;
+    }
+
+}
+
+@media (max-width: 414px) {
+    .table tr td:nth-of-type(2),
+    .table tr td:nth-of-type(3) {
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .table tr td:nth-of-type(2),
+    .table tr td:nth-of-type(3) {
+        font-size: .5rem;
+    }
+  .table {
+    margin-top: -5%;
+}
+
+}
+
+@media (max-width: 320px) {
+    .table tr td {
+        padding: .2rem .5rem;
+    }
+    .table tr td:nth-of-type(2),
+    .table tr td:nth-of-type(3) {
+        font-size: 8px;
+    }
+    .tc-background-yellow {
+        font-size: 10px !important;
+    }
+    .table .yellow {
+        color: #b5d81e;
+        padding: 0 .3rem 0 0;
+    }
+}
